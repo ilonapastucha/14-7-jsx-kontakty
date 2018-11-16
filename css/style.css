@@ -1,0 +1,39 @@
+body { background-image: url("../images/desk.jpg"); background-repeat: no-repeat; background-size: cover; font-family: 'Montserrat', sans-serif; margin: 0 auto; }
+
+#app { background-color: rgba(255, 255, 255, 0.58); height: 100vh; width: 500px; }
+
+.app { padding-top: 25px; }
+
+.contactForm { display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; margin-left: 60px; width: 400px; }
+
+.contactForm input { background-color: rgba(231, 231, 231, 0); border: none; border-bottom: 1px solid; -ms-flex: 1; flex: 1; line-height: 40px; margin: 10px; outline: none; }
+
+.contactForm input:-ms-input-placeholder { color: rgba(255, 255, 255, 0.88); font-size: 15px; }
+
+.contactForm input::placeholder { color: rgba(255, 255, 255, 0.88); font-size: 15px; }
+
+.contactForm input:hover { border-bottom: 1px solid rgba(102, 17, 141, 0.75); }
+
+.contactForm input:hover:-ms-input-placeholder { color: rgba(255, 255, 255, 0.48); }
+
+.contactForm input:hover::placeholder { color: rgba(255, 255, 255, 0.48); }
+
+.contactForm button { background-color: rgba(102, 17, 141, 0.75); border: none; color: rgba(255, 255, 255, 0.88); margin: 10px; padding: 7px 12px; }
+
+.contactForm button:hover { background-color: #66118d; }
+
+.contactList { padding-bottom: 135px; }
+
+.contactItem { background-color: rgba(231, 231, 231, 0.68); border: 1px solid grey; border: none; display: -ms-flexbox; display: flex; margin: 10px 30px; width: 380px; }
+
+.contactItem img { height: 75px; margin: 20px 5px 20px 20px; width: 75px; }
+
+.contactItem:hover { background-color: rgba(231, 231, 231, 0.88); }
+
+.contactContent { border-left: 3px solid #92155a; display: inline-block; margin: 30px 15px; padding-left: 15px; }
+
+.contactLabel { color: black; display: inline-block; font-weight: 400; letter-spacing: 0.8px; margin: 5px 5px 5px 0px; padding-bottom: 3px; }
+
+.contactEmail { color: #505050; display: block; font-size: 14px; font-weight: 300; text-decoration: none; }
+
+.contactEmail:hover { color: rgba(102, 17, 141, 0.75); }
