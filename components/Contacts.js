@@ -4,7 +4,7 @@ var Contacts = React.createClass({
   },
 
   render: function() {
-    let contacts = props.items.map(function(contact) {
+    let contacts = this.props.items.map(function(contact) {
       return <Contact contact={contact} key={contact.id}/>;
     });
 
